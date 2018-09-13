@@ -3,7 +3,7 @@ Imports Model
 
 Public Class Form1
 
-    'menambahkan di tombol submit
+    'menambahkan di tombol
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         Dim _transBL As New TransaksiBL
         Dim newData As New Transaksi With {
